@@ -1,0 +1,12 @@
+.bg-red{
+    text-align: center;
+   
+  display: inline-grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1.25, 1fr);
+  border: 0.01px solid black;
+  margin: 1px 1px 1px 1px;
+}
+
+
+
