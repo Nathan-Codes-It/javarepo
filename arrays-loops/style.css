@@ -7,6 +7,20 @@
   border: 0.01px solid black;
   margin: 1px 1px 1px 1px;
 }
+h1{
+  display: flexbox;
+  flex-direction: column;
+  color: brown;
+}
+.button{
+  display: flexbox;
+  flex-direction: column;
+}
+.reset{
+  display: flexbox;
+  flex-direction: column;
+  color: brown;
+}
 
 
 
