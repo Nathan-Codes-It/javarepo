@@ -17,8 +17,8 @@ function draw(numOfTimes){
             singleCell.style.color="white";
             singleCell.classList.add("bg-red")
             singleCell.classList.add("grid")
-            singleCell.addEventListener("click", () => {
-                singleCell.style.background="#2f525d";
+            singleCell.addEventListener("mouseover", () => {
+                singleCell.style.background="#2f525d";  
                 singleCell.style.color="#2f525d"; 
             });
             rowContainer.appendChild(singleCell);
