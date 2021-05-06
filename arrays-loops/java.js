@@ -1,12 +1,13 @@
  const buttonChoice = document.querySelector(".button");
 const gridContainer = document.querySelector("#gridContainer");
 const resetButton = document.querySelector(".reset");
-
+const colorBlue = document.querySelector("#colorSelector");
  
 buttonChoice.addEventListener("click", () => {
     let numOfTimes = prompt("gridsize");
     gridContainer.innerHTML="";
     draw(numOfTimes);
+
 });
 function draw(numOfTimes){
     for (let j = 0; j<numOfTimes;j++){
