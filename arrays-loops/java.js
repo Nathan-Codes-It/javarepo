@@ -14,11 +14,11 @@ function draw(numOfTimes){
         for(let i = 0;i<numOfTimes;i++){
             const singleCell = document.createElement("div");
             singleCell.textContent=".";
-            singleCell.style.color="white";
+            singleCell.style.color="dimgrey";
             singleCell.classList.add("bg-red")
-            singleCell.classList.add("grid")
+            singleCell.classList.add("grid")  
             singleCell.addEventListener("mouseover", () => {
-                singleCell.style.background="#2f525d";  
+                singleCell.style.background="#2f525d ";  
                 singleCell.style.color="#2f525d"; 
             });
             rowContainer.appendChild(singleCell);
